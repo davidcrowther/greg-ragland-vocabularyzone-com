@@ -81,10 +81,24 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
+.navbar.navbar-default ul.navbar-right li > a:hover,
+.navbar.navbar-default ul.navbar-right li > a:focus {
+  color: #e6e6e6;
+  text-decoration: underline;
+  padding: 16px 42px 12px 7px;
+}
 .navbar.navbar-default ul.navbar-right li > a.btn {
   padding: 13px 37px;
   border: 1px solid #fff;
   border-radius: 3px;
+}
+.navbar.navbar-default ul.navbar-right li > a.btn:hover,
+.navbar.navbar-default ul.navbar-right li > a.btn:focus {
+  padding: 13px 37px;
+  color: #3f454d;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 10px 3px #f1f1f1;
 }
 p,
 li {
@@ -353,6 +367,15 @@ blockquote cite {
   border-color: #fff;
   color: #fff;
 }
+.test-drive .btn:hover,
+.improve-communication .btn:hover,
+.test-drive .btn:focus,
+.improve-communication .btn:focus {
+  color: #ff6d37;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 10px 3px #f1f1f1;
+}
 .test-drive .white__contents,
 .improve-communication .white__contents {
   box-shadow: none;
@@ -516,6 +539,11 @@ blockquote cite {
 .btn-success {
   background: #34b006;
   border: none !important;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background: #247b04 !important;
+  box-shadow: 0 0 10px 3px #1a5803 !important;
 }
 .hero-2 {
   padding-top: 99px;
@@ -805,6 +833,10 @@ blockquote cite {
 }
 .learn-communicate .btn-holder {
   margin-top: 26px;
+}
+a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 /*# sourceMappingURL=app.css.map */
