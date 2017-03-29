@@ -584,6 +584,11 @@ blockquote cite {
   text-align: center;
   margin-bottom: -53px;
 }
+@media only screen and (max-width: 768px) {
+  .hero-2 .hero-2__header {
+    margin-bottom: 20px;
+  }
+}
 .hero-2 .hero-2__header h3 {
   font-size: 4.41em;
   margin: 0;
@@ -669,7 +674,7 @@ blockquote cite {
   }
 }
 .hero-2nd .white__contents {
-  padding-right: 50%;
+  padding-right: 460px;
   position: relative;
   text-align: left;
   padding-bottom: 139px;
@@ -707,8 +712,8 @@ blockquote cite {
 .hero-2nd .white__contents img {
   position: absolute;
   top: 120px;
-  right: 8.3%;
   max-width: 100%;
+  right: 60px;
 }
 @media only screen and (max-width: 768px) {
   .hero-2nd .white__contents img {
@@ -785,6 +790,10 @@ blockquote cite {
   .vocabulary__list-item {
     margin: 10px 0px;
     width: 100%;
+    max-width: 374px;
+  }
+  .vocabulary__list-item br {
+    display: block;
   }
 }
 .vocabulary__list-item h4 {
