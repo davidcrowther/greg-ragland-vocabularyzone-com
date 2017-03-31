@@ -64,7 +64,7 @@ body {
 @media only screen and (max-width: 768px) {
   .navbar.navbar-default .navbar-brand {
     float: left;
-    width: 80%;
+    width: 70%;
   }
 }
 .navbar.navbar-default ul.navbar-right {
@@ -209,6 +209,17 @@ ul.with-bullets li .icon {
   font-family: Oswald, Arial, sans-serif;
   margin: 0;
   padding: 19px 0px 0px 0px;
+}
+@media only screen and (max-width: 768px) {
+  .white__contents-title,
+  .voc-zone__title,
+  .hero-1__title,
+  .hero-2 .hero-2__header h3,
+  .hero-2 .hero-2__header h4,
+  .hero-2 .hero-2__header h5,
+  .vocabulary__list-item h4 {
+    font-size: 2em;
+  }
 }
 .white__contents-title small,
 .voc-zone__title small,
@@ -511,6 +522,12 @@ blockquote cite {
   .hero-1 {
     padding-bottom: 30px;
   }
+  .hero-1 .navbar-toggle {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    margin: 0;
+  }
 }
 .hero-1 .navbar.navbar-default ul.navbar-right li > a {
   padding: 15px 40px 16px 5px;
@@ -554,6 +571,11 @@ blockquote cite {
   letter-spacing: -0.04em;
   margin-bottom: 47px;
 }
+@media only screen and (max-width: 768px) {
+  .hero-1__title {
+    font-size: 2em;
+  }
+}
 .hero-1 .btn-holder p {
   font-weight: 300;
   font-size: 1.15em;
@@ -595,11 +617,21 @@ blockquote cite {
   line-height: 100%;
   padding: 18px 0px 10px 0px;
 }
+@media only screen and (max-width: 768px) {
+  .hero-2 .hero-2__header h3 {
+    font-size: 2em;
+  }
+}
 .hero-2 .hero-2__header h4 {
   font-size: 2.25em;
   line-height: 130%;
   margin: 0;
   padding: 0;
+}
+@media only screen and (max-width: 768px) {
+  .hero-2 .hero-2__header h4 {
+    font-size: 1.7em;
+  }
 }
 .hero-2 .hero-2__header h5 {
   font-size: 1.2em;
@@ -622,10 +654,14 @@ blockquote cite {
 @media only screen and (max-width: 768px) {
   .hero-2 .white__contents {
     bottom: 0;
+    padding: 10px 15px;
   }
 }
 .hero-2 .white__contents-subtitle {
   margin-bottom: 64px;
+}
+.hero-2 .white__contents-title {
+  text-transform: none;
 }
 .hero-2 .white__contents p {
   text-align: left;
@@ -682,7 +718,7 @@ blockquote cite {
 @media only screen and (max-width: 768px) {
   .hero-2nd .white__contents {
     bottom: 0;
-    padding: 30px 40px;
+    padding: 15px 20px;
   }
 }
 .hero-2nd .white__contents p.bigger {
@@ -700,6 +736,11 @@ blockquote cite {
 }
 .hero-2nd .white__contents-title {
   padding-top: 62px;
+}
+@media only screen and (max-width: 768px) {
+  .hero-2nd .white__contents-title {
+    padding-top: 20px;
+  }
 }
 .hero-2nd .white__contents-subtitle {
   margin-top: 22px;
@@ -722,6 +763,7 @@ blockquote cite {
     margin: 11px auto;
     position: relative;
     display: block;
+    height: auto;
   }
 }
 .improve-communication {
@@ -792,14 +834,17 @@ blockquote cite {
     width: 100%;
     max-width: 374px;
   }
-  .vocabulary__list-item br {
-    display: block;
-  }
 }
 .vocabulary__list-item h4 {
   margin-top: 109px;
   font-size: 1.23em;
   line-height: 120%;
+}
+@media only screen and (max-width: 768px) {
+  .vocabulary__list-item h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 .vocabulary__list-item h4.less {
   margin-top: 96px;
@@ -858,6 +903,7 @@ blockquote cite {
 }
 @media only screen and (max-width: 768px) {
   .learn-communicate {
+    background-position: 20% center;
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -868,6 +914,11 @@ blockquote cite {
 a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+@media only screen and (max-width: 768px) {
+  br.block {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
