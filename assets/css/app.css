@@ -897,6 +897,7 @@ blockquote cite {
 .learn-communicate {
   background: url("../img/hero-4.jpg") no-repeat center #59595a;
   background-size: cover;
+  background-position:  center ;
   color: #fff;
   padding-top: 215px;
   padding-bottom: 120px;
