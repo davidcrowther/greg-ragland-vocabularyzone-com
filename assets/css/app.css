@@ -494,6 +494,7 @@ blockquote cite {
   padding: 0px 0 134px 0;
   background: url("../img/hero-1.jpg") #41424b;
   background-size: cover;
+  background-position: center top;
   color: #fff;
   position: relative;
 }
@@ -698,7 +699,7 @@ blockquote cite {
   margin-bottom: -11px;
 }
 .hero-2nd {
-  padding-top: 81px;
+  padding-top: 381px;
   padding-bottom: 0px;
   background: url("../img/hero-2.jpg") no-repeat center;
   background-size: cover;
