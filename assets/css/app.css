@@ -523,7 +523,7 @@ blockquote cite {
   .hero-1 {
     padding-bottom: 30px;
   }
-  .hero-1 .navbar-toggle {
+  .hero-1 .navbar-toggle, .hero-4 .navbar-toggle  {
     position: absolute;
     top: 15px;
     right: 0px;
